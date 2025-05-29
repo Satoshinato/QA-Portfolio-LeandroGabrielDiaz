@@ -25,7 +25,7 @@
 - El sistema respondió según lo esperado. Home cargado sin errores.
 
 **Evidencia:**
-- Captura: `/docs/evidenciaHome.png`
+- Captura: `[/docs/evidenciaHome.png](https://github.com/Satoshinato/QA-Portfolio-LeandroGabrielDiaz/blob/main/docs/evidenciaHome.png)`
 
 **Observaciones:**
 - [Por ejemplo: "Tarda 2 segundos en cargar. No se detectaron errores visuales."]
