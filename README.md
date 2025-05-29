@@ -1,5 +1,3 @@
-# QA-Portfolio-LeandroGabrielDiaz
-
 # 🧪Mi Primer Portfolio de QA 
 
 Este repositorio contiene ejemplos prácticos de mi trabajo como Analista de Calidad y Pruebas de Software, aplicando buenas prácticas de QA manual. El objetivo es mostrar mi capacidad para diseñar, ejecutar y documentar pruebas efectivas, utilizando casos reales de sitios web.
