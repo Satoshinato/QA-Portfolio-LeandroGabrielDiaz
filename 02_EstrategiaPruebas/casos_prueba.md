@@ -22,7 +22,7 @@
 - El scroll funciona correctamente
 
 **Resultado obtenido:**  
-- [Por completar tras la ejecución]
+- El sistema respondió según lo esperado. Home cargado sin errores.
 
 **Evidencia:**
 - Captura: `/evidencias/carga_home.png`
