@@ -1,17 +1,31 @@
-## Casos de Prueba: Flujo de Registro de Usuario
+## Caso de prueba Nº01: Carga correcta de la página de inicio
 
-| ID | Caso de Prueba | Paso a Paso | Resultado Esperado | Estado |
-|----|----------------|-------------|---------------------|--------|
-| CP-01 | Registro exitoso con datos válidos | 1. Ingresar a gocuotas.com<br>2. Click en "Ingresar"<br>3. Click en "Registrate"<br>4. Completar formulario válido<br>5. Click en "Crear cuenta" | Usuario es redirigido al dashboard o recibe un mensaje de éxito | 🟡 Por testear |
-| CP-02 | Registro con email inválido | Igual a CP-01 pero ingresando `email@invalido` | Se muestra mensaje de error: "Email inválido" | 🟡 Por testear |
-| CP-03 | Registro con contraseña débil | Contraseña tipo "1234" | Mensaje: "La contraseña debe tener mínimo 8 caracteres..." | 🟡 Por testear |
-| CP-04 | Registro con campos vacíos | Click en "Crear cuenta" sin llenar datos | Validaciones visibles en cada campo obligatorio | 🟡 Por testear |
-| CP-05 | Registro con email ya registrado | Usar email existente | Mensaje de error "Email ya en uso" o similar | 🟡 Por testear |
+**ID:** TC-GC-001  
+**Prioridad:** Alta  
+**Funcionalidad:** Página principal  
+**Tipo de prueba:** Funcional
 
-🛠️ Herramientas sugeridas para estas pruebas
+**Precondiciones:**
+- Navegador abierto
+- Acceso a https://www.gocuotas.com
 
-DevTools (F12) para inspeccionar errores de red, consola, formularios.
-Lighthouse para auditar accesibilidad y performance.
-Brave navegador
-Postman (APIs de backend).QUEDA PENDIENTE POR EL MOMETO.
-BugMagnet (extensión Chrome) para pruebas de valores edge en formularios.
+**Pasos para ejecutar:**
+1. Acceder a la URL https://www.gocuotas.com
+2. Esperar la carga completa del contenido
+3. Observar si hay errores visibles o mensajes inesperados
+4. Verificar que el título y logo se muestren correctamente
+5. Probar el scroll vertical de la página
+
+**Resultado esperado:**
+- El sitio carga correctamente sin errores visibles
+- El logo se muestra en el header
+- El scroll funciona correctamente
+
+**Resultado obtenido:**  
+- [Por completar tras la ejecución]
+
+**Evidencia:**
+- Captura: `/evidencias/carga_home.png`
+
+**Observaciones:**
+- [Por ejemplo: "Tarda 2 segundos en cargar. No se detectaron errores visuales."]
