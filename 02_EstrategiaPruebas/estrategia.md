@@ -54,6 +54,9 @@ Se evaluarán los siguientes aspectos:
 - **Captura y gestión de evidencias**: Loom + GitHub.
 - **Gestión de casos de prueba**: GitHub + Jira.
 - **Casos automatizados**: Cypress
+- **Integracion Continua**: Jenkins
+- **Pruebas mobile**: Appium
+- **Apis**: Postman .
   
 ---
 
