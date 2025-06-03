@@ -8,13 +8,16 @@ Soy Analista QA con experiencia en pruebas manuales,funcionales y no funcionales
 
 ## 📌 Proyectos incluidos
 
-- **Proyecto 1:** Análisis funcional y pruebas manuales sobre [gocuotas.com](https://www.gocuotas.com)
-- **(Futuros proyectos):** Automatización, API Testing, Mobile Testing, etc.
+- **Proyecto 1:** Análisis funcional, pruebas manuales y automatizacion de las mismas sobre [gocuotas.com](https://www.gocuotas.com)
 
-## 🛠️ Herramientas y Tecnologías
+### 🛠 Herramientas Utilizadas
 
-- Pruebas manuales
-- Casos de prueba (Test Cases)
-- Reportes de defectos
-- Exploratory Testing
-- Herramientas: Postman + Newman, GitHub, Jira,Playwright, Jenkins, K6 ,Appium .
+- **Inspección de UI**: Chrome DevTools, Brave DevTools.
+- **Pruebas responsivas**: Modo Responsive de cada navegador.
+- **Auditoría de performance/accesibilidad**: Lighthouse.
+- **Captura y gestión de evidencias**: Loom + GitHub.
+- **Gestión de casos de prueba**: GitHub + Jira.
+- **Casos automatizados**: Cypress
+- **Integracion Continua**: Jenkins
+- **Pruebas mobile**: Appium
+- **Apis**: Postman .
