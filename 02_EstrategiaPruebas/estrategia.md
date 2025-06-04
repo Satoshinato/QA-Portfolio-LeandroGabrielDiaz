@@ -48,13 +48,14 @@ Se evaluarán los siguientes aspectos:
 
 ### 🛠 Herramientas Utilizadas
 
-- **Inspección de UI**: Chrome DevTools, Brave DevTools.
 - **Pruebas responsivas**: Modo Responsive de cada navegador.
 - **Auditoría de performance/accesibilidad**: Lighthouse.
+- **Inspección de UI**: Chrome DevTools, Brave DevTools.
 - **Captura y gestión de evidencias**: Loom + GitHub.
 - **Gestión de casos de prueba**: GitHub + Jira.
-- **Casos automatizados**: Cypress
+- **Reviciones de Codigo**: SonarQube
 - **Integracion Continua**: Jenkins
+- **Casos automatizados**: Cypress
 - **Pruebas mobile**: Appium
 - **Apis**: Postman .
   
