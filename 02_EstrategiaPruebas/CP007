@@ -1,0 +1,110 @@
+## Caso de prueba Nº07: Tiempo de carga de páginas clave
+
+**ID:** TC-GC-007  
+**Prioridad:** Alta  
+**Funcionalidad:** Performance y velocidad de carga  
+**Tipo de prueba:** No funcional / Auditoría
+
+---
+
+### ✅ Precondiciones:
+- Acceso a [https://www.gocuotas.com](https://www.gocuotas.com)
+- Navegador Google Chrome
+- Acceso a DevTools > Lighthouse
+
+---
+
+### ▶️ Pasos para ejecutar:
+
+1. Ingresar a la página principal.
+2. Ejecutar un análisis con Lighthouse desde DevTools.
+3. Evaluar los siguientes indicadores:
+   - Tiempo hasta el primer renderizado (`First Contentful Paint`)
+   - Tiempo hasta interacción (`Time to Interactive`)
+   - Velocidad de carga total
+4. Repetir análisis para:
+   - Página de registro.
+   - Página de tiendas adheridas.
+5. Realizar pruebas en modo incógnito para evitar caché.
+
+---
+
+### ✅ Resultado esperado:
+
+- Tiempo de carga total debe ser **menor a 3 segundos** en condiciones normales.
+- No deben detectarse bloqueos en carga por recursos pesados.
+- Las páginas deben mostrar contenido interactivo rápidamente.
+- El puntaje general de Lighthouse debe superar **80/100** en Performance.
+
+---
+
+## 📊 Resultados Obtenidos (Desktop)
+
+| Categoría         | Resultado Obtenido | Resultado Esperado | Cumple |
+|------------------|--------------------|---------------------|--------|
+| Performance       | 72                 | ≥ 90                | ❌     |
+| Accesibilidad     | 87                 | ≥ 90                | ❌     |
+| Best Practices    | 92                 | ≥ 90                | ✅     |
+| SEO               | 91                 | ≥ 90                | ✅     |
+
+📊 Resultados Obtenidos (Desktop – Modo incógnito)
+
+| Categoría          | Resultado Obtenido | Resultado Esperado | Cumple |
+| ------------------ | ------------------ | ------------------ | ------ |
+| **Performance**    | 36                 | ≥ 90               | ❌      |
+| **Accesibilidad**  | 81                 | ≥ 90               | ❌      |
+| **Best Practices** | 83                 | ≥ 90               | ❌      |
+| **SEO**            | 91                 | ≥ 90               | ✅      |
+
+
+---
+
+## 📝 Análisis de Resultados
+
+### 🔴 Performance (72) - **No cumple**
+- **Problemas detectados:**
+  - Imágenes sin compresión eficiente.
+  - Archivos JavaScript y CSS que bloquean el renderizado inicial.
+  - Falta de lazy-loading para imágenes fuera del viewport.
+- **Impacto:** El sitio tarda más de lo óptimo en cargar completamente, afectando la experiencia de usuario.
+
+---
+
+### 🟠 Accesibilidad (87) - **No cumple**
+- **Problemas detectados:**
+  - Contrastes de color insuficientes en algunos textos.
+  - Etiquetas `aria` mal definidas o ausentes.
+- **Impacto:** Los usuarios con dificultades visuales o con navegadores asistidos pueden tener una experiencia limitada.
+
+---
+
+### 🟢 Best Practices (92) - **Cumple**
+- **Fortalezas:**
+  - Uso correcto de HTTPS.
+  - Recursos cargados desde dominios seguros.
+  - Buen manejo de errores en consola.
+- **Impacto:** El sitio sigue prácticas modernas de seguridad y desarrollo.
+
+---
+
+### 🟢 SEO (91) - **Cumple**
+- **Fortalezas:**
+  - Presencia de etiquetas `title`, `meta description`, y uso correcto de etiquetas `alt`.
+  - URLs limpias y semánticas.
+- **Impacto:** El sitio está bien posicionado para los motores de búsqueda.
+
+---
+
+## 📎 Evidencia
+
+- [Ver informe completo en PageSpeed](https://pagespeed.web.dev/analysis/https-www-gocuotas-com/b1um0it64v?form_factor=desktop&category=performance&category=acc)
+
+---
+
+## 📌 Observaciones Finales
+
+- Se recomienda optimizar el rendimiento general del sitio enfocándose en:
+  - Implementar lazy-loading para imágenes.
+  - Minificar y combinar archivos JS/CSS.
+  - Revisar colores y accesibilidad visual.
+
