@@ -16,8 +16,3 @@ Soy Analista QA con experiencia en pruebas manuales,funcionales y no funcionales
 - **Pruebas responsivas**: Modo Responsive de cada navegador.
 - **Auditoría de performance/accesibilidad**: Lighthouse.
 - **Captura y gestión de evidencias**: Loom + GitHub.
-- **Gestión de casos de prueba**: GitHub + Jira.
-- **Casos automatizados**: Cypress
-- **Integracion Continua**: Jenkins
-- **Pruebas mobile**: Appium
-- **Apis**: Postman .
